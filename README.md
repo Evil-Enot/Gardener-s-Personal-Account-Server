@@ -6,7 +6,7 @@
 
 Также в папке можно найти файл [Personal_Account_Gardener_API](Personal_Account_Gardener_API.cfe), являющийся расширением конфигурации 1С
 
-Сервер реализован для работы [Лчиного кабинета садовода](https://github.com/Evil-Enot/Gardener-s-Personal-Account/tree/master)
+Сервер реализован для работы [Личного кабинета садовода](https://github.com/Evil-Enot/Gardener-s-Personal-Account/tree/master)
 
 ## Как подключить расширение:
 
