@@ -1,34 +1,36 @@
-# Gardener-s-Personal-Account-Server
-Server for gardener's personal account
+# Сервер для личного кабинета садовода
 
-In the folder, you can find the [ServerPersonalAccount](ServerPersonalAccount.txt) file, which contains the text version of the server.
+Описание проекта на другом языке: [English](README.en.md)
 
-Also in the folder you can find the [Personal_Account_Gardener_API](Personal_Account_Gardener_API.cfe) file, which is an extension of the 1C configuration
+В папке вы можете найти файл [ServerPersonalAccount](ServerPersonalAccount.txt), который содержит текстовую версию сервера.
 
-## How to connect the extension:
+Также в папке можно найти файл [Personal_Account_Gardener_API](Personal_Account_Gardener_API.cfe), являющийся расширением конфигурации 1С
 
-1. You need to run 1C in configuration mode:
+## Как подключить расширение:
 
-![Запуск системы в режиме конфигуратора](images/img1.png)
+1. Нужно запустить 1С в режиме конфигурации:
+​
+![Запуск системы в режим конфигуратора](images/img1.png)
 
-2. Select an administrator profile (if desired and for convenience, create a new profile to interact with your personal account):
+2. Выберите профиль администратора (при желании и для удобства создайте новый профиль для взаимодействия с личным кабинетом):
 
 ![Выбор профиля](images/img2.png)
 
-3. When opening the configuration in the configuration extension setting in the menu: "Configuration -> Configuration extensions":
+3. При открытии конфигурации в настройке расширения конфигурации в меню: «Конфигурация -> Расширения конфигурации»:
 
-![Расширение конфигурации](images/img3.png)
+![Расширение плана](images/img3.png)
 
-4. Upload the configuration file by selecting: "Configuration -> Load configuration from file"
-5. After downloading, the configuration itself will open:
+4. Загрузите файл конфигурации, выбрав: «Конфигурация -> Загрузить конфигурацию из файла».
 
-![Меню конфигурации](images/img4.png)
+5. После загрузки откроется сама конфигурация:
 
-## How to publish an extension on the server:
+![Меню сборки](images/img4.png)
 
-1. Open the "Publish to Web Server" menu: "Administration -> Publish to Web Server"
-2. Then, in the HTTP services menu, check the box "Publish HTTP extension services by default":
+## Как опубликовать расширение на сервере:
+
+1. Откройте меню «Публикация на веб-сервере»: «Администрирование -> Публикация на веб-сервере».
+2. Затем в меню HTTP-сервисов установите флажок «Публиковать HTTP-сервисы расширения по умолчанию»:
 
 ![Публикация веб-сервера](images/img5.png)
 
-3. It remains to click on the "Publish" button, after which you can start interacting with the service
+3.Осталось нажать на кнопку «Опубликовать», после чего можно начинать взаимодействие с сервисом
