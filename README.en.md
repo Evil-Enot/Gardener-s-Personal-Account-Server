@@ -6,6 +6,8 @@ In the folder, you can find the [ServerPersonalAccount](ServerPersonalAccount.tx
 
 Also in the folder you can find the [Personal_Account_Gardener_API](Personal_Account_Gardener_API.cfe) file, which is an extension of the 1C configuration
 
+The server is implemented to work with [Gardener's Personal Account](https://github.com/Evil-Enot/Gardener-s-Personal-Account/tree/master)
+
 ## How to connect the extension:
 
 1. You need to run 1C in configuration mode:
